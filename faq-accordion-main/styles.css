@@ -1,0 +1,99 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+  7. Media Queries
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --gray-purple: hsl(292, 16%, 49%); 
+    --dark-purple: hsl(292, 42%, 14%);
+    
+    /* Fonts */
+    --font: "Work Sans";
+    font-size: 16px;
+}
+
+/* 2. Typography Styles
+======================================== */
+h1, p, a {
+    font-family:  var(--font);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+p, a {
+    font-size: 1rem;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.answer p {
+    font-weight: 400;
+}
+
+/* 3. Structure Styles
+======================================== */
+#faq {
+    width: 75%;
+    background-color: var(--white);
+    margin: auto;
+    position: relative;
+    top: 3rem;
+    border-radius: 10px;
+}
+
+/* 4. Modules Styles
+======================================== */
+/* Site Navigation */
+/* Site Footer */
+
+/* 5. Component Styles
+======================================== */
+/* Questions for Accordions */
+.question {
+    background-color: var(--white);
+    color: var(--dark-purple);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Answers for Accordions */
+.answer {
+    padding: 0 25px;
+    display: none;
+    overflow: hidden;
+}
+
+/* 6. Page Styles
+======================================== */
+body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 100%;
+    background-color: var(--light-pink);
+}
+
+/* 7. Media Queries
+======================================== */
