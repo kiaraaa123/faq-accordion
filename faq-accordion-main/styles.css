@@ -31,7 +31,6 @@ h1, p, a {
 h1 {
     font-size: 2rem;
     font-weight: 700;
-    display: inline-block;
 }
 
 p, a {
@@ -55,12 +54,37 @@ p, a {
     position: relative;
     top: 3rem;
     border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#heading {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    align-items: center;
+    width: 22%;
+    justify-content: space-between;
+    padding-left: 25px;
 }
 
 /* 4. Modules Styles
 ======================================== */
 /* Site Navigation */
 /* Site Footer */
+footer {
+    margin-top: 20%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--gray-purple);
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: var(--dark-purple);
+}
 
 /* 5. Component Styles
 ======================================== */
@@ -78,14 +102,30 @@ p, a {
     transition: 0.4s;
 }
 
+.question:hover {
+    color: var(--gray-purple);
+  }
+
 /* Answers for Accordions */
 .answer {
     padding: 0 25px;
-    display: none;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
 }
+
+/* Accordion Icons */
+.question:after {
+    content: url(assets/images/icon-plus.svg);
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: url(assets/images/icon-minus.svg);
+  }
 
 /* 6. Page Styles
 ======================================== */

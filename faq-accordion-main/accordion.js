@@ -9,12 +9,6 @@ for (i = 0; i < acc.length; i++) {
 
         /* Toggle between hiding and showing the active panel */
         var answer = this.nextElementSibling;
-        if (answer.style.display === "block") {
-            answer.style.display = "none";
-        } else {
-            answer.style.display = "block";
-        }
-
         if (answer.style.maxHeight) {
             answer.style.maxHeight = null;
         } else {
