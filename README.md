@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-This challenge was a great way for me to gwt started with adding JavaScript into my projects. Excluding my portfolio, this project was my second solo project utilizing JavaScript. I feel as though it has helped me understand how JS concepts are used in web development.
+This challenge was a great way for me to get started with adding JavaScript into my projects. Excluding my portfolio, this project was my second solo project utilizing JavaScript. I feel as though it has helped me understand how JS concepts are used in web development.
 
 ### Continued development
 
