@@ -58,8 +58,6 @@ p, a {
 }
 
 #heading {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     align-items: center;
     width: 22%;
